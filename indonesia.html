@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bravo Sensei</title>
+    <link href="assets/img/logo.png" rel="icon" style="border-radius: 20px">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="login.html"><img src="assets/img/logo.png" alt="Bootstrap" width="50px"
+                    class="rounded-circle"> Bravo
+                Sensei </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item dropdown">
+                        <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><img src="assets/img/logo.png" alt="Bootstrap" width="32px"
+                                class="rounded-circle">
+                            <span id="pm">
+                            </span>
+                            <span id="kls">
+                            </span>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+                            <li><a class="dropdown-item" href="dashboard.html"><i class="bi bi-house-door"></i>
+                                    Dashboard</a></li>
+                            <li><a class="dropdown-item" href="akunsaya.html"><i class="bi bi-person"></i> Akun
+                                    Saya</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right"></i>
+                                    Keluar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper" id="main">
+        <div class="container text-center justify-content-center">
+            <div class="row row-cols-lg-8">
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/vidio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="pembelajaran">Pembelajaran</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/task.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="latihan">Soal Latihan</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/question.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="pertanyan">pertanyaan</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="pemblajarans">
+        <div class="container text-center justify-content-center">
+            <div class="row row-cols-lg-4">
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/q0htdAfh4AE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">TEKS NEGOSIASI (DEFINISI, TUJUAN, PROSES PENCAPAIAN, UNSUR)
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6skkdDyQBAQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">STRUKTUR TEKS NEGOSIASI (ORIENTASI, PENGAJUAN, PENAWARAN,
+                                KESEPAKATAN)
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YEs6cpolikU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">KOMPONEN NEGOSIASI (CIRI NEGOSIASI, FAKTOR KEBERHASILAN NEGOSIASI,
+                                SYARAT TERCAPAINYA KESEPAKATAN)
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BLKq0EtAZ8M"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">SURAT PENAWARAN NEGOSIASI (DEFINISI SURAT PENAWARAN, UNSUR-UNSUR
+                                SURAT PENAWARAN)
+
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="latihans" class="wrapper">
+        <div class="container justify-content-center">
+            <div class="card border-info mb-4 ">
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h1">
+                    <span>Soal 1</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="false"
+                        aria-controls="q1" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q1" class="collapse show" aria-labelledby="h1">
+                    <div class="card-body">
+                        <p> Berikut yang termasuk struktur teks negosiasi adalah ….
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r1" value="r1">
+                            <label class="form-check-label" for="q1_r1">
+                                Orientasi, penawaran, persetujuan, penutup
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="r2">
+                            <label class="form-check-label" for="q1_r2">
+                                Organisasi, pengajuan, penawaran, persetujuan, penutup
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r3" value="r3">
+                            <label class="form-check-label" for="q1_r3">
+                                Orientasi, pengajuan, penawaran, penutup
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r4" value="r4">
+                            <label class="form-check-label" for="q1_r4">
+                                Orientasi, pengajuan, persetujuan, penutup
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h2">
+                    <span>Soal 2</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false"
+                        aria-controls="q2" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q2" class="collapse" aria-labelledby="h2">
+                    <div class="card-body">
+                        <p>Proses memilih solusi yang tepat dan menguntungkan kedua belah pihak disebut ….
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r1" value="r1">
+                            <label class="form-check-label" for="q2_r1">
+                                Pengajuan
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q2_r2">
+                                Persetujuan
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r3" value="r3">
+                            <label class="form-check-label" for="q2_r3">
+                                Orientasi
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r4" value="r4">
+                            <label class="form-check-label" for="q2_r4">
+                                Penutup
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h3">
+                    <span>Soal 3</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false"
+                        aria-controls="q3" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q3" class="collapse" aria-labelledby="h3">
+                    <div class="card-body">
+                        <p>Berikut yang merupakan contoh negosiasi adalah ….
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r1" value="r1">
+                            <label class="form-check-label" for="q3_r1">
+                                Ceramah
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q3_r2">
+                                Seminar
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r3" value="r3">
+                            <label class="form-check-label" for="q3_r3">
+                                Pidato
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r4" value="r4">
+                            <label class="form-check-label" for="q3_r4">
+                                Debat
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h4">
+                    <span>Soal 4</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false"
+                        aria-controls="q4" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q4" class="collapse" aria-labelledby="h4">
+                    <div class="card-body">
+                        <p>Cermati dialog berikut!
+                            <br>
+                            <br>
+                            (1) Anak : “Ayah, setelah lulus nanti, aku mau sekolah di SMA.”
+                            <br>
+                            (2) Ayah : “Kenapa di SMA, Nak? Padahal, Ayah ingin kamu sekolah di SMK.”
+                            <br>
+                            (3) Ayah : “Kok di SMK? Kenapa memangnya Ayah, jika aku sekolah di SMK?”
+                            <br>
+                            (4) Ayah : “Begini Nak, di SMK itu lulusannya bisa langsung bekerja.”
+                            <br>
+                            (5) Anak : “Oh, gitu yah, iya aku setuju.”
+                            <br>
+                            (6) Ayah : “Baguslah kalau kamu setuju.”
+                            <br>
+                            <br>
+                            <br>
+                            Dialog yang menyatakan penawaran ditunjukkan oleh nomor ….
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r1" value="r1">
+                            <label class="form-check-label" for="q4_r1">
+                                (2), (3), (5)
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q4_r2">
+                                (2), (3), (4)
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r3" value="r3">
+                            <label class="form-check-label" for="q4_r3">
+                                (1), (2), (3), (4)
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r4" value="r4">
+                            <label class="form-check-label" for="q4_r4">
+                                (2), (3), (4), (5)
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h5">
+                    <span>Soal 5</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false"
+                        aria-controls="q5" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q5" class="collapse" aria-labelledby="h5">
+                    <div class="card-body">
+                        <p>Dalam unsur pembicaraan negosiasi, alat yang dipakai dalam penyampaian berita/pesan disebut
+                            ….</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r1" value="r1">
+                            <label class="form-check-label" for="q5_r1">
+                                komunikan
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r2" value="r2">
+                            <label class="form-check-label" for="q5_r2">
+                                Pesan
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r3" value="r3">
+                            <label class="form-check-label" for="q5_r3">
+                                Media
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q4_r4" value="r4">
+                            <label class="form-check-label" for="q5_r4">
+                                efek
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h3>Result</h3>
+
+            <div class="card">
+                <div class="card-body">
+                    <p id="result">No result.</p>
+
+                    <div class="progress mb-2">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="pertanyans" class="wrapper">
+        <div class="container justify-content-center">
+            <div class="card h-50">
+                <div class=" card-body">
+                    <span class="card-title">Ocho</span>
+                    <h6 class="card-subtitle mb-2 text-muted">17.11.2022</h6>
+                    <p class="card-text fw-bold">1) Penumpang : “Bang, ke Pasar Wage berapa?”
+                        <br>
+                        2) Ojek : “20ribu, Mas.”
+                        <br>
+                        3) Penumpang : “Kok mahal amat Bang, kan deket tuh di situ, 10 ribu aja ya.”
+                        <br>
+                        4) Ojek : “Aduh, itu kemurahan, enggak nutup uang bensin atuh.”
+                        <br>
+                        5) Penumpang : “Iya deh iya Bang, saya tambah 2 ribu biar jadi. 12ribu ya. Bagaimana?”
+                        <br>
+                        6) Ojek : “Tambah 3 ribu lagi deh, langsung capcusss.”
+                        <br>
+                        7) Penumpang : “Okelah Bang, saya setuju, antar saya ke Pasar Wage.”
+                        <br>
+                        <br>
+                        <br>
+                        Partisipan dalam teks negosiasi tersebut adalah ….
+                    </p>
+                    <hr>
+                    <div class="card">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Jawaban : Tukang ojek dan penumpang</p>
+                                <footer class="blockquote-footer">Nicky<cite title="Source Title">8266</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-50">
+                <div class=" card-body">
+                    <span class="card-title">Adler_05</span>
+                    <h6 class="card-subtitle mb-2 text-muted">10.11.2022</h6>
+                    <p class="card-text fw-bold">1) Penumpang : “Bang, ke Pasar Wage berapa?”
+                        <br>
+                        2) Ojek : “20ribu, Mas.”
+                        <br>
+                        3) Penumpang : “Kok mahal amat Bang, kan deket tuh di situ, 10 ribu aja ya.”
+                        <br>
+                        4) Ojek : “Aduh, itu kemurahan, enggak nutup uang bensin atuh.”
+                        <br>
+                        5) Penumpang : “Iya deh iya Bang, saya tambah 2 ribu biar jadi. 12ribu ya. Bagaimana?”
+                        <br>
+                        6) Ojek : “Tambah 3 ribu lagi deh, langsung capcusss.”
+                        <br>
+                        7) Penumpang : “Okelah Bang, saya setuju, antar saya ke Pasar Wage."
+                        <br>
+                        <br>
+                        <br>
+                        Kalimat persetujuan ditunjukkan oleh dialog nomor ….
+                    </p>
+                    <hr>
+                    <div class="card">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Jawaban : 7)</p>
+                                <footer class="blockquote-footer">fadhil<cite title="Source Title">26</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="text-center">Created with <i class="bi bi-arrow-through-heart-fill"></i> by
+                        Kelompok1</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        const username = localStorage.getItem('username');
+        const kelas = localStorage.getItem('kelas');
+        document.getElementById('pm').textContent = username;
+        document.getElementById('kls').textContent = ' | ' + kelas;
+    </script>
+</body>
+
+</html>

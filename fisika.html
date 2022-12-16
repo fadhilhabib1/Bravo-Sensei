@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bravo Sensei</title>
+    <link href="assets/img/logo.png" rel="icon" style="border-radius: 20px">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="login.html"><img src="assets/img/logo.png" alt="Bootstrap" width="50px"
+                    class="rounded-circle"> Bravo
+                Sensei </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item dropdown">
+                        <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><img src="assets/img/logo.png" alt="Bootstrap" width="32px"
+                                class="rounded-circle">
+                            <span id="pm">
+                            </span>
+                            <span id="kls">
+                            </span>
+                        </span>
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+                            <li><a class="dropdown-item" href="dashboard.html"><i class="bi bi-house-door"></i>
+                                    Dashboard</a></li>
+                            <li><a class="dropdown-item" href="akunsaya.html"><i class="bi bi-person"></i> Akun
+                                    Saya</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right"></i>
+                                    Keluar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper" id="main">
+        <div class="container text-center justify-content-center">
+            <div class="row row-cols-lg-8">
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/vidio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="pembelajaran">Pembelajaran</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/task.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="latihan">Soal Latihan</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style">
+                        <img src="assets/img/question.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title"><a href="#" id="pertanyan">pertanyaan</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="pemblajarans">
+        <div class="container text-center justify-content-center">
+            <div class="row row-cols-lg-4">
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LEuSQ6ISFFU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title"> Besaran Vektor | Vektor | Part 1 | Fisika Dasar
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/WgK0wmFfOKQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Resultan Vektor | Vektor | Part 2 | Fisika Dasar
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IzTSmO93H44"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Perkalian Titik (Dot Product) | Vektor | Part 3 | Fisika Dasar
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-style h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2bx58VWD27I"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Perkalian Silang (Cross Product) | Vektor | Part 4 | Fisika Dasar
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="latihans" class="wrapper">
+        <div class="container justify-content-center">
+            <div class="card border-info mb-4 ">
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h1">
+                    <span>Soal 1</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="false"
+                        aria-controls="q1" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q1" class="collapse show" aria-labelledby="h1">
+                    <div class="card-body">
+                        <p> Dua gaya (setitik tangkap) saling tegak lurus, besarnya masing-masing 24 N dan 7 N. Besar
+                            resultan kedua gaya tersebut adalah . . .
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r1" value="r1">
+                            <label class="form-check-label" for="q1_r1">
+                                9 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="r2">
+                            <label class="form-check-label" for="q1_r2">
+                                15 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r3" value="r3">
+                            <label class="form-check-label" for="q1_r3">
+                                20 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1_r4" value="r4">
+                            <label class="form-check-label" for="q1_r4">
+                                25 N
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h2">
+                    <span>Soal 2</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false"
+                        aria-controls="q2" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q2" class="collapse" aria-labelledby="h2">
+                    <div class="card-body">
+                        <p>Dua vektor bertitik tangkap sama, masing-masing besarnya F1 dan F2. Jika F1 = F2 = R (R
+                            adalah resultan kedua vektor tersebut), maka besar sudut apit antara F1 dan F2 adalah . . .
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r1" value="r1">
+                            <label class="form-check-label" for="q2_r1">
+                                45<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q2_r2">
+                                60<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r3" value="r3">
+                            <label class="form-check-label" for="q2_r3">
+                                90<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_r4" value="r4">
+                            <label class="form-check-label" for="q2_r4">
+                                120<sup>o</sup>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h3">
+                    <span>Soal 3</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false"
+                        aria-controls="q3" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q3" class="collapse" aria-labelledby="h3">
+                    <div class="card-body">
+                        <p>Dua vektor bertitik tangkap sama, masing-masing besarnya F1 dn F2. Jika F1 = F2 = R (R adalah
+                            selisih kedua vektor tersebut), maka besarnya sudut apit antara F1 dan F2 adalah . . . .</p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r1" value="r1">
+                            <label class="form-check-label" for="q3_r1">
+                                15<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q3_r2">
+                                60<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r3" value="r3">
+                            <label class="form-check-label" for="q3_r3">
+                                80<sup>o</sup>
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3_r4" value="r4">
+                            <label class="form-check-label" for="q3_r4">
+                                90<sup>o</sup>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h4">
+                    <span>Soal 4</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false"
+                        aria-controls="q4" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q4" class="collapse" aria-labelledby="h4">
+                    <div class="card-body">
+                        <p>Dua vektor yang besarnya masing-masing 5 N dan 10 N. Resultan kedua vektor itu tidak mungkin
+                            berharga . . .
+                        </p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r1" value="r1">
+                            <label class="form-check-label" for="q4_r1">
+                                5 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q2_r2" value="r2">
+                            <label class="form-check-label" for="q4_r2">
+                                8 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r3" value="r3">
+                            <label class="form-check-label" for="q4_r3">
+                                4 N
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4_r4" value="r4">
+                            <label class="form-check-label" for="q4_r4">
+                                10 N
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-info mb-4">
+
+                <div class="d-flex justify-content-between align-items-center card-header bg-info text-white" id="h5">
+                    <span>Soal 5</span>
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false"
+                        aria-controls="q5" class="btn btn-outline-light"><svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="q5" class="collapse" aria-labelledby="h5">
+                    <div class="card-body">
+                        <p>Berikut ini yang merupakan besaran skalar adalah . . .</p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r1" value="r1">
+                            <label class="form-check-label" for="q5_r1">
+                                Gaya
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r2" value="r2">
+                            <label class="form-check-label" for="q5_r2">
+                                Kecepatan
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q5_r3" value="r3">
+                            <label class="form-check-label" for="q5_r3">
+                                Berat
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="q4_r4" value="r4">
+                            <label class="form-check-label" for="q5_r4">
+                                Energi
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h3>Result</h3>
+
+            <div class="card">
+                <div class="card-body">
+                    <p id="result">No result.</p>
+
+                    <div class="progress mb-2">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="pertanyans" class="wrapper">
+        <div class="container justify-content-center">
+            <div class="card h-50">
+                <div class=" card-body">
+                    <span class="card-title">Andy</span>
+                    <h6 class="card-subtitle mb-2 text-muted">17.11.2022</h6>
+                    <p class="card-text fw-bold">Jarak Bumi ke Matahari adalah R, sedangkan jarak Jupiter ke Matahari
+                        adalah 3R/2. Massa Bumi dan Matahari berturut-turut adalah mE dan mJ. Pernyataan terkait
+                        kecepatan orbit dan periode keduanya adalah . . .</p>
+                    <hr>
+                    <div class="card">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Jawaban : Kecepatan orbit Bumi terhadap Matahari lebih besar daripada Jupiter</p>
+                                <footer class="blockquote-footer">Gunther</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-50">
+                <div class=" card-body">
+                    <span class="card-title">Fadhiil</span>
+                    <h6 class="card-subtitle mb-2 text-muted">10.11.2022</h6>
+                    <p class="card-text fw-bold">Kita dapat mengabaikan gaya gravitasi dalam tinjauan partikel
+                        elementer. Hal ini karena . . .</p>
+                    <hr>
+                    <div class="card">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Jawaban : Pengaruhnya sangat kecil</p>
+                                <footer class="blockquote-footer">Nicky</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="text-center">Created with <i class="bi bi-arrow-through-heart-fill"></i> by
+                        Kelompok1</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        const username = localStorage.getItem('username');
+        const kelas = localStorage.getItem('kelas');
+        document.getElementById('pm').textContent = username;
+        document.getElementById('kls').textContent = ' | ' + kelas;
+    </script>
+</body>
+
+</html>
